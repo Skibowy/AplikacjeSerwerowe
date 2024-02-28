@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AS_lab1_gr1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AS_lab1_gr1.props",
+      "PackagePath": "build\\AS_lab1_gr1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AS_lab1_gr1.props",
+      "PackagePath": "buildMultiTargeting\\AS_lab1_gr1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AS_lab1_gr1.props",
+      "PackagePath": "buildTransitive\\AS_lab1_gr1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

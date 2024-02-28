@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8RwK7Xu5kL8V1YWlNSoiHEaNe44B6HtW9n7VNKhgoMc0ev5I3zipBWnTaXY4RV7wIoFmMBofNEgQx2VLGBDpzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dawis\\.nuget\\packages\\microsoft.typescript.msbuild\\5.3.3\\microsoft.typescript.msbuild.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

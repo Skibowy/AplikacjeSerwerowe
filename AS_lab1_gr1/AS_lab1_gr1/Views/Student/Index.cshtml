@@ -1,0 +1,13 @@
+﻿@model AS_lab1_gr1.Models.Student
+
+<h1>Numer indeksu: @Model.IndexNumber</h1>
+<p>
+    @Model.Name
+    @Model.Surname
+</p>
+<p>
+    Data urodzenia: @Model.BirthDate.ToShortDateString()
+</p>
+<p>
+    Kierunek studiów: @Model.FieldOfStudy
+</p>
