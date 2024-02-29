@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T01:49:43.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
