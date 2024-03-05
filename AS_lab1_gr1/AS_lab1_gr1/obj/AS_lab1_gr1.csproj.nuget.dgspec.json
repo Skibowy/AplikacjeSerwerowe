@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj": {}
+    "C:\\Users\\Student\\Documents\\Dawiskiba\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj": {
+    "C:\\Users\\Student\\Documents\\Dawiskiba\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\Dawiskiba\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj",
         "projectName": "AS_lab1_gr1",
-        "projectPath": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj",
-        "packagesPath": "C:\\Users\\dawis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Documents\\Dawiskiba\\AS_lab1_gr1\\AS_lab1_gr1\\AS_lab1_gr1.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\Dawiskiba\\AS_lab1_gr1\\AS_lab1_gr1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dawis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
