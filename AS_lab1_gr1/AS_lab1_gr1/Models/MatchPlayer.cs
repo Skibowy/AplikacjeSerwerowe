@@ -2,7 +2,7 @@
 {
     public class MatchPlayer
     {
-        public int Id { get; set; }
+        public int MatchPlayerId { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public ICollection<MatchEvent> MatchEvents { get; set; }

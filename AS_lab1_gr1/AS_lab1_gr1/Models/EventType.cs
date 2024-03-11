@@ -2,7 +2,7 @@
 {
     public class EventType
     {
-        public int Id { get; set; }
+        public int EventTypeId { get; set; }
         public string Name { get; set; }
         public ICollection<MatchEvent> MatchEvents { get; set; }
 

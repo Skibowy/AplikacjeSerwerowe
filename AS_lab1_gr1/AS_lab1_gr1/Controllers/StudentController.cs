@@ -12,7 +12,7 @@ namespace AS_lab1_gr1.Controllers
             {
                 new Student
                 {
-                    Id = 1,
+                    StudentId = 1,
                     Name = "Bartosz",
                     Surname = "Dawiskiba",
                     IndexNumber = 1,
@@ -21,7 +21,7 @@ namespace AS_lab1_gr1.Controllers
                 },
                 new Student
                 {
-                    Id = 2,
+                    StudentId = 2,
                     Name = "Jan",
                     Surname = "Kowalski",
                     IndexNumber = 2,
@@ -30,7 +30,7 @@ namespace AS_lab1_gr1.Controllers
                 },
                 new Student
                 {
-                    Id = 3,
+                    StudentId = 3,
                     Name = "Krzysztof",
                     Surname = "Nowak",
                     IndexNumber = 3,
