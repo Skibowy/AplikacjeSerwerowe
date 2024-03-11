@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\matchevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\matchevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\matchplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\matchplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,6 +75,188 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Index.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Article\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Index.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Article\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T23:43:58.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T23:43:33.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Program.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Program.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Program.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:05:06.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\appsettings.json",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\appsettings.json",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\appsettings.json",
+              "RelativeToolTip": "AS_lab1_gr1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-11T15:00:29.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Author.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:08:09.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\MyDbContext.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\MyDbContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA2wB4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T23:04:19.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Team.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:05:29.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Tag.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:05:23.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Position.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Position.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:05:17.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Player.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:05:12.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MatchPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\MatchPlayer.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\MatchPlayer.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\MatchPlayer.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\MatchPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:05:06.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatchEvent.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\MatchEvent.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\MatchEvent.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\MatchEvent.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\MatchEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:04:59.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Match.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Match.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA5wA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:04:55.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "League.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\League.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\League.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\League.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\League.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:04:49.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Home\\Index.cshtml",
