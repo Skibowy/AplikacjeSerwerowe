@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AS_lab1_gr1.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreateForMySql : Migration
+    public partial class m2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -123,7 +123,7 @@ namespace AS_lab1_gr1.Migrations
                     City = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     FoundingDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    LeagueId = table.Column<int>(type: "int", nullable: false)
+                    LeagueId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -132,8 +132,7 @@ namespace AS_lab1_gr1.Migrations
                         name: "FK_Teams_Leagues_LeagueId",
                         column: x => x.LeagueId,
                         principalTable: "Leagues",
-                        principalColumn: "LeagueId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "LeagueId");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -178,7 +177,7 @@ namespace AS_lab1_gr1.Migrations
                     Country = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     BirthDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    TeamId = table.Column<int>(type: "int", nullable: false)
+                    TeamId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -187,8 +186,7 @@ namespace AS_lab1_gr1.Migrations
                         name: "FK_Players_Teams_TeamId",
                         column: x => x.TeamId,
                         principalTable: "Teams",
-                        principalColumn: "TeamId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "TeamId");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -205,9 +203,9 @@ namespace AS_lab1_gr1.Migrations
                     Content = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     CreationDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false),
-                    AuthorId = table.Column<int>(type: "int", nullable: false),
-                    MatchId = table.Column<int>(type: "int", nullable: false)
+                    CategoryId = table.Column<int>(type: "int", nullable: true),
+                    AuthorId = table.Column<int>(type: "int", nullable: true),
+                    MatchId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -216,20 +214,17 @@ namespace AS_lab1_gr1.Migrations
                         name: "FK_Articles_Authors_AuthorId",
                         column: x => x.AuthorId,
                         principalTable: "Authors",
-                        principalColumn: "AuthorId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "AuthorId");
                     table.ForeignKey(
                         name: "FK_Articles_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
-                        principalColumn: "CategoryId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "CategoryId");
                     table.ForeignKey(
                         name: "FK_Articles_Matches_MatchId",
                         column: x => x.MatchId,
                         principalTable: "Matches",
-                        principalColumn: "MatchId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "MatchId");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -241,9 +236,9 @@ namespace AS_lab1_gr1.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     StartTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     EndTime = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    MatchId = table.Column<int>(type: "int", nullable: false),
-                    PositionId = table.Column<int>(type: "int", nullable: false),
-                    PlayerId = table.Column<int>(type: "int", nullable: false)
+                    MatchId = table.Column<int>(type: "int", nullable: true),
+                    PositionId = table.Column<int>(type: "int", nullable: true),
+                    PlayerId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -252,20 +247,17 @@ namespace AS_lab1_gr1.Migrations
                         name: "FK_MatchPlayers_Matches_MatchId",
                         column: x => x.MatchId,
                         principalTable: "Matches",
-                        principalColumn: "MatchId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "MatchId");
                     table.ForeignKey(
                         name: "FK_MatchPlayers_Players_PlayerId",
                         column: x => x.PlayerId,
                         principalTable: "Players",
-                        principalColumn: "PlayerId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "PlayerId");
                     table.ForeignKey(
                         name: "FK_MatchPlayers_Positions_PositionId",
                         column: x => x.PositionId,
                         principalTable: "Positions",
-                        principalColumn: "PositionId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "PositionId");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -329,7 +321,7 @@ namespace AS_lab1_gr1.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Content = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    ArticleId = table.Column<int>(type: "int", nullable: false)
+                    ArticleId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -338,8 +330,7 @@ namespace AS_lab1_gr1.Migrations
                         name: "FK_Comments_Articles_ArticleId",
                         column: x => x.ArticleId,
                         principalTable: "Articles",
-                        principalColumn: "ArticleId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "ArticleId");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -350,9 +341,9 @@ namespace AS_lab1_gr1.Migrations
                     MatchEventId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Minute = table.Column<int>(type: "int", nullable: false),
-                    MatchId = table.Column<int>(type: "int", nullable: false),
-                    EventTypeId = table.Column<int>(type: "int", nullable: false),
-                    MatchPlayerId = table.Column<int>(type: "int", nullable: false)
+                    MatchId = table.Column<int>(type: "int", nullable: true),
+                    EventTypeId = table.Column<int>(type: "int", nullable: true),
+                    MatchPlayerId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -361,20 +352,17 @@ namespace AS_lab1_gr1.Migrations
                         name: "FK_MatchEvents_EventTypes_EventTypeId",
                         column: x => x.EventTypeId,
                         principalTable: "EventTypes",
-                        principalColumn: "EventTypeId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "EventTypeId");
                     table.ForeignKey(
                         name: "FK_MatchEvents_MatchPlayers_MatchPlayerId",
                         column: x => x.MatchPlayerId,
                         principalTable: "MatchPlayers",
-                        principalColumn: "MatchPlayerId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "MatchPlayerId");
                     table.ForeignKey(
                         name: "FK_MatchEvents_Matches_MatchId",
                         column: x => x.MatchId,
                         principalTable: "Matches",
-                        principalColumn: "MatchId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "MatchId");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 

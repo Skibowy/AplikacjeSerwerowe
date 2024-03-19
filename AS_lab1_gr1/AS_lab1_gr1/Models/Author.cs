@@ -5,6 +5,8 @@
         public int AuthorId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public ICollection<Article> Articles { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Article>? Articles { get; set; }
     }
 }

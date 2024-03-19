@@ -1,0 +1,26 @@
+﻿@model IEnumerable<AS_lab1_gr1.Models.Author>
+
+<h1>Autorzy</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+
+    </header>
+
+    <div class="w3-container">
+        <ul>
+            @foreach (var a in Model)
+            {
+                <li>
+                    <h2>
+                        <a asp-action="Details" asp-route-id="@a.AuthorId">@(a.FirstName + " " + a.LastName)</a>
+                    </h2>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <footer class="w3-container w3-blue">
+
+    </footer>
+</div>

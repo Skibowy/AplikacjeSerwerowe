@@ -37,5 +37,11 @@ namespace AS_lab1_gr1
                 .OnDelete(DeleteBehavior.NoAction);
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseLazyLoadingProxies();
+        }
+
     }
 }

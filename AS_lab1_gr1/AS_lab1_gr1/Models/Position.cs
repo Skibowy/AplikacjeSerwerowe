@@ -4,7 +4,11 @@
     {
         public int PositionId { get; set; }
         public string Name { get; set; }
-        public ICollection<MatchPlayer> MatchPlayers { get; set; }
-        public ICollection<Player> Player { get; set; }
+
+        // 1 - *
+        public virtual ICollection<MatchPlayer>? MatchPlayers { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Player>? Player { get; set; }
     }
 }

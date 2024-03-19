@@ -12,15 +12,18 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AS_lab1_gr1.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240311214143_InitialCreateForMySql")]
-    partial class InitialCreateForMySql
+    [Migration("20240314220138_m2")]
+    partial class m2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.2")
+                .HasAnnotation("ProductVersion", "8.0.3")
+                .HasAnnotation("Proxies:ChangeTracking", false)
+                .HasAnnotation("Proxies:CheckEquality", false)
+                .HasAnnotation("Proxies:LazyLoading", true)
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
@@ -33,10 +36,10 @@ namespace AS_lab1_gr1.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("ArticleId"));
 
-                    b.Property<int>("AuthorId")
+                    b.Property<int?>("AuthorId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Content")
@@ -50,7 +53,7 @@ namespace AS_lab1_gr1.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("MatchId")
+                    b.Property<int?>("MatchId")
                         .HasColumnType("int");
 
                     b.Property<string>("Title")
@@ -114,7 +117,7 @@ namespace AS_lab1_gr1.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("CommentId"));
 
-                    b.Property<int>("ArticleId")
+                    b.Property<int?>("ArticleId")
                         .HasColumnType("int");
 
                     b.Property<string>("Content")
@@ -211,13 +214,13 @@ namespace AS_lab1_gr1.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("MatchEventId"));
 
-                    b.Property<int>("EventTypeId")
+                    b.Property<int?>("EventTypeId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MatchId")
+                    b.Property<int?>("MatchId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MatchPlayerId")
+                    b.Property<int?>("MatchPlayerId")
                         .HasColumnType("int");
 
                     b.Property<int>("Minute")
@@ -245,13 +248,13 @@ namespace AS_lab1_gr1.Migrations
                     b.Property<DateTime>("EndTime")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("MatchId")
+                    b.Property<int?>("MatchId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PlayerId")
+                    b.Property<int?>("PlayerId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PositionId")
+                    b.Property<int?>("PositionId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("StartTime")
@@ -291,7 +294,7 @@ namespace AS_lab1_gr1.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("TeamId")
+                    b.Property<int?>("TeamId")
                         .HasColumnType("int");
 
                     b.HasKey("PlayerId");
@@ -354,7 +357,7 @@ namespace AS_lab1_gr1.Migrations
                     b.Property<DateTime>("FoundingDate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("LeagueId")
+                    b.Property<int?>("LeagueId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -402,21 +405,15 @@ namespace AS_lab1_gr1.Migrations
                 {
                     b.HasOne("AS_lab1_gr1.Models.Author", "Author")
                         .WithMany("Articles")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AuthorId");
 
                     b.HasOne("AS_lab1_gr1.Models.Category", "Category")
                         .WithMany("Articles")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CategoryId");
 
                     b.HasOne("AS_lab1_gr1.Models.Match", "Match")
                         .WithMany("Articles")
-                        .HasForeignKey("MatchId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MatchId");
 
                     b.Navigation("Author");
 
@@ -429,9 +426,7 @@ namespace AS_lab1_gr1.Migrations
                 {
                     b.HasOne("AS_lab1_gr1.Models.Article", "Article")
                         .WithMany("Comments")
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ArticleId");
 
                     b.Navigation("Article");
                 });
@@ -459,21 +454,15 @@ namespace AS_lab1_gr1.Migrations
                 {
                     b.HasOne("AS_lab1_gr1.Models.EventType", "EventType")
                         .WithMany("MatchEvents")
-                        .HasForeignKey("EventTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EventTypeId");
 
                     b.HasOne("AS_lab1_gr1.Models.Match", "Match")
                         .WithMany("MatchEvents")
-                        .HasForeignKey("MatchId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MatchId");
 
                     b.HasOne("AS_lab1_gr1.Models.MatchPlayer", "MatchPlayer")
                         .WithMany("MatchEvents")
-                        .HasForeignKey("MatchPlayerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MatchPlayerId");
 
                     b.Navigation("EventType");
 
@@ -486,21 +475,15 @@ namespace AS_lab1_gr1.Migrations
                 {
                     b.HasOne("AS_lab1_gr1.Models.Match", "Match")
                         .WithMany("MatchPlayers")
-                        .HasForeignKey("MatchId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MatchId");
 
                     b.HasOne("AS_lab1_gr1.Models.Player", "Player")
                         .WithMany("MatchPlayers")
-                        .HasForeignKey("PlayerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PlayerId");
 
                     b.HasOne("AS_lab1_gr1.Models.Position", "Position")
                         .WithMany("MatchPlayers")
-                        .HasForeignKey("PositionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PositionId");
 
                     b.Navigation("Match");
 
@@ -513,9 +496,7 @@ namespace AS_lab1_gr1.Migrations
                 {
                     b.HasOne("AS_lab1_gr1.Models.Team", "Team")
                         .WithMany("Players")
-                        .HasForeignKey("TeamId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TeamId");
 
                     b.Navigation("Team");
                 });
@@ -524,9 +505,7 @@ namespace AS_lab1_gr1.Migrations
                 {
                     b.HasOne("AS_lab1_gr1.Models.League", "League")
                         .WithMany("Teams")
-                        .HasForeignKey("LeagueId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("LeagueId");
 
                     b.Navigation("League");
                 });

@@ -7,9 +7,16 @@
         public string LastName { get; set; }
         public string Country { get; set; }
         public DateTime BirthDate { get; set; }
-        public ICollection<MatchPlayer> MatchPlayers { get; set; }
-        public ICollection<Position> Positions { get; set; }
-        public Team Team { get; set; }
+
+        // 1 - *
+        public virtual ICollection<MatchPlayer>? MatchPlayers { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Position>? Positions { get; set; }
+
+        // * - 1
+        public virtual Team? Team { get; set; }
+        public int? TeamId { get; set; }
 
     }
 }

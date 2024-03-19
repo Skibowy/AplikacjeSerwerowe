@@ -1,9 +1,24 @@
-﻿@model AS_lab1_gr1.Models.Article
+﻿@model IEnumerable<AS_lab1_gr1.Models.Article>
 
-<h1>@Model.Title</h1>
-<p>
-    Data utworzenia: @Model.CreationDate.ToShortDateString()
-</p>
-<p>
-    @Model.Content
-</p>
+<h1>Artykuły</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        
+    </header>
+    <div class="w3-container">
+        <ul>
+            @foreach (var article in Model)
+            {
+                <li>
+                    <h2>
+                        @* <a href="@Url.Action("Details", "Article", new {id = article.ArticleId})">@article.Title</a> *@
+                        <a asp-action="Details" asp-route-id="@article.ArticleId">@article.Title</a>
+                    </h2>
+                    <p>@article.Lead</p>
+                    @article.CreationDate.ToShortDateString()
+                </li>
+            }
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿@model AS_lab1_gr1.Models.Article
+
+<h1>@Model.Title</h1>
+@if (Model.Match is not null)
+{
+	<h2>@(Model.Match.HomeTeam + " - " + Model.Match.AwayTeam)</h2>
+}
+@if(Model.Category is not null)
+{
+	<p>@Model.Category.Name</p>
+}
+<h2>@Model.Lead</h2>
+<p>@Model.Content</p>
+<h3>
+	@if (Model.Author is not null)
+	{
+		<a asp-action="Details" asp-controller="Author" asp-route-id="@Model.AuthorId">@(Model.Author.FirstName + " " + Model.Author.LastName)</a>
+	}
+	@Model.CreationDate.ToShortDateString()
+</h3>
+<ul>
+	@if (Model.Tags is not null)
+	{
+		@foreach (var t in Model.Tags)
+		{
+			<li>
+				<p>@(t.Name)</p>
+			</li>
+		}
+	}
+</ul>
+<ul>
+	@if(Model.Comments is not null)
+	{
+		@foreach (var c in Model.Comments)
+		{
+			<li>
+				<p>@(c.Title)</p>
+				<p>@(c.Content)</p>
+			</li>
+		}
+	}
+</ul>

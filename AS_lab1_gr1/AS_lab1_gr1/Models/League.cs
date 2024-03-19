@@ -6,6 +6,8 @@
         public string Name { get; set; }
         public string Country { get; set; }
         public int Level { get; set; }
-        public ICollection<Team> Teams { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Team>? Teams { get; set; }
     }
 }

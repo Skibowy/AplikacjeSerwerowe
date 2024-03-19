@@ -4,6 +4,8 @@
     {
         public int CategoryId { get; set; }
         public string Name { get; set; }
-        public ICollection<Article> Articles { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Article>? Articles { get; set; }
     }
 }

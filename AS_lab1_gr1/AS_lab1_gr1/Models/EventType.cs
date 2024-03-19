@@ -4,7 +4,9 @@
     {
         public int EventTypeId { get; set; }
         public string Name { get; set; }
-        public ICollection<MatchEvent> MatchEvents { get; set; }
+
+        // 1 - *
+        public virtual ICollection<MatchEvent>? MatchEvents { get; set; }
 
     }
 }

@@ -7,9 +7,16 @@
         public string Country { get; set; }
         public string City { get; set; }
         public DateTime FoundingDate { get; set; }
-        public ICollection<Player> Players { get; set; }
-        public ICollection<Match> HomeMatches { get; set; }
-        public ICollection<Match> AwayMatches { get; set; }
-        public League League { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Player>? Players { get; set; }
+
+        // 1 - *
+        public virtual ICollection<Match> HomeMatches { get; set; }
+        public virtual ICollection<Match> AwayMatches { get; set; }
+
+        // * - 1
+        public virtual League? League { get; set; }
+        public int? LeagueId { get; set; }
     }
 }
