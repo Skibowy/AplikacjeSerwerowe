@@ -1,4 +1,7 @@
 ﻿@model AS_lab1_gr1.Models.Article
+@{
+	var checkedTags = ViewBag.checkedTagList as List<SelectListItem>;
+}
 
 <h1>@ViewBag.Header</h1>
 
@@ -21,12 +24,17 @@
 		<select asp-for="AuthorId" asp-items="@ViewBag.authorList" class="w3-input w3-border"></select>
 	</p>
 	<p>
+		<label asp-for="Category">Kategoria:</label>
+		<select asp-for="CategoryId" asp-items="@ViewBag.categoryList" class="w3-input w3-border"></select>
+	</p>
+	<p>
 		<label asp-for="Tags">Tagi:</label>
-		@foreach (var tag in ViewBag.tagList)
+		@foreach (var tag in ViewBag.tagList as List<SelectListItem>)
 		{
+			bool isChecked = checkedTags?.Any(t => t.Value == tag.Value) == true;
 			<p>
 				<label>@tag.Text</label>
-				<input type="checkbox" name="Tags" value="@tag.Value" class="w3-check" />
+				<input type="checkbox" name="Tags" value="@tag.Value" class="w3-check" @(isChecked ? "checked" : "") />
 			</p>
 		}
 	</p>

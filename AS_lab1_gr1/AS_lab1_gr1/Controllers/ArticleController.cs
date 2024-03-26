@@ -67,11 +67,30 @@ namespace AS_lab1_gr1.Controllers
 			}
 			ViewBag.tagList = tagList;
 
-			if (id != -1)
+			var categories = _db.Categories.ToList();
+            var categoryList = new List<SelectListItem>();
+            foreach (var c in categories)
+            {
+                string text = c.Name;
+                string authorId = c.CategoryId.ToString();
+                categoryList.Add(new SelectListItem(text, authorId));
+            }
+            ViewBag.categoryList = categoryList;
+
+            if (id != -1)
             {
 				var article = _db.Articles!
 					.FirstOrDefault(a => a.ArticleId == id);
-				
+				var checkedList = article?.Tags?.ToList();
+				var checkedTagList = new List<SelectListItem>();
+				foreach (var t in checkedList)
+				{
+					string text = t.Name;
+					string tagId = t.TagId.ToString();
+					checkedTagList.Add(new SelectListItem(text, tagId));
+				}
+				ViewBag.checkedTagList = checkedTagList;
+
 				@ViewBag.Header = "Edytuj artykuł";
 				@ViewBag.ButtonText = "Edytuj";
 				return View(article);
@@ -89,25 +108,50 @@ namespace AS_lab1_gr1.Controllers
         {
 			if (article.ArticleId != 0)
 			{
-				var a = _db.Articles!.FirstOrDefault(a => a.ArticleId == article.ArticleId);
+				var a = _db.Articles!.Include(t => t.Tags).FirstOrDefault(a => a.ArticleId == article.ArticleId);
 				if (a != null)
 				{
 					a.Title = article.Title;
                     a.Lead = article.Lead;
                     a.Content = article.Content;
                     a.CreationDate = article.CreationDate;
-					var articleTags = _db.Tags.Where(t => tags.Contains(t.TagId)).ToList();
-					a.Tags = articleTags;
+					var articleTags2 = new List<Tag>();
+					var articleTags = _db.Tags.ToList();
+					foreach (var t in articleTags)
+					{
+						if (tags.Contains(t.TagId))
+						{
+							articleTags2.Add(t);
+						}
+					}
+					a.Tags = articleTags2;
 					var author = _db.Authors.FirstOrDefault(author => author.AuthorId == article.AuthorId);
 					if (author == null)
 					{
 						return View("Error");
 					}
 					a.Author = author;
+					var category = _db.Categories.FirstOrDefault(category => category.CategoryId == article.CategoryId);
+					if (category == null)
+					{
+						return View("Error");
+					}
+					a.Category = category;
 				}
 			}
 			else
 			{
+				article.CreationDate = DateTime.Now;
+				var articleTags2 = new List<Tag>();
+				var articleTags = _db.Tags.ToList();
+				foreach (var t in articleTags)
+				{
+					if (tags.Contains(t.TagId))
+					{
+						articleTags2.Add(t);
+					}
+				}
+				article.Tags = articleTags2;
 				_db.Articles!.Add(article);
 			}
 			_db.SaveChanges();

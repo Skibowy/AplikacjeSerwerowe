@@ -24,6 +24,12 @@
 	}
 	@Model.CreationDate.ToShortDateString()
 </h3>
+<h4>
+	@if (Model.Category is not null)
+	{
+		<a asp-action="Details" asp-controller="Category" asp-route-id="@Model.CategoryId">@Model.Category.Name</a>
+	}
+</h4>
 <ul>
 	@if (Model.Tags is not null)
 	{
