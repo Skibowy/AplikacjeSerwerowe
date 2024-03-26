@@ -1,6 +1,7 @@
 ﻿using AS_lab1_gr1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace AS_lab1_gr1.Controllers
 {
@@ -15,7 +16,7 @@ namespace AS_lab1_gr1.Controllers
 
         public IActionResult Index()
         {
-            var authors = _db.Authors;
+            var authors = _db.Authors.ToList();
             if (authors != null)
             {
                 return View(authors);
@@ -34,30 +35,81 @@ namespace AS_lab1_gr1.Controllers
             return View("ErrorNoData");
         }
 
-        public IActionResult Add()
+        public IActionResult AddOrUpdate(int id = -1)
         {
-            return View();
+
+            if (id != -1)
+            {
+                var author = _db.Authors!
+                    .FirstOrDefault(a => a.AuthorId == id);
+                @ViewBag.Header = "Edytuj autora";
+                @ViewBag.ButtonText = "Edytuj";
+                return View(author);
+            }
+            else
+            {
+                @ViewBag.Header = "Dodaj autora";
+                @ViewBag.ButtonText = "Dodaj";
+                return View();
+            }
+
         }
 
         [HttpPost]
-        public IActionResult Add(Author author)
+        public IActionResult AddOrUpdate(Author author)
         {
-            if (ModelState.IsValid)
+            if (author.AuthorId != 0)
             {
-                _db.Authors.Add(author);
-
-                try
+                var a = _db.Authors!.FirstOrDefault(a => a.AuthorId == author.AuthorId);
+                if (a != null)
                 {
-                    _db.SaveChanges();
+                    a.FirstName = author.FirstName;
+                    a.LastName = author.LastName;
                 }
-                catch (Exception ex)
-                {
-                    return View("ErrorSave");
-                }
-
-                return View("Added", author);
             }
-            return View("Error");
+            else
+            {
+                _db.Authors!.Add(author);
+            }
+            _db.SaveChanges();
+            return RedirectToAction("Details", new { id = author.AuthorId });
         }
-    }
+
+		public IActionResult Delete(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+			var author = _db.Authors!
+				.FirstOrDefault(a => a.AuthorId == id);
+			if (author == null)
+			{
+				return NotFound();
+			}
+
+			return View(author);
+		}
+
+		[HttpPost]
+		//[ValidateAntiForgeryToken]
+		public IActionResult Delete(int id)
+		{
+			try
+			{
+				var author = _db.Authors!.Where(a => a.AuthorId == id)
+					.Include(a => a.Articles)
+					.FirstOrDefault();
+				author!.Articles = null;
+				_db.Authors!.Remove(author!);
+				_db.SaveChanges();
+			}
+			catch (Exception ex)
+			{
+
+			}
+			return RedirectToAction("Index");
+		}
+	}
 }

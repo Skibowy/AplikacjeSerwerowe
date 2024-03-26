@@ -4,7 +4,9 @@
 
 <div class="w3-card">
     <header class="w3-container w3-blue">
-
+        <form asp-action="AddOrUpdate" asp-controller="Author" method="get">
+            <button type="submit" class="w3-btn w3-green">Dodaj autora</button>
+        </form>
     </header>
 
     <div class="w3-container">
@@ -14,6 +16,12 @@
                 <li>
                     <h2>
                         <a asp-action="Details" asp-route-id="@a.AuthorId">@(a.FirstName + " " + a.LastName)</a>
+                        <form asp-action="AddOrUpdate" asp-controller="Author" asp-route-id="@a.AuthorId" method="get">
+                            <button type="submit" class="w3-btn w3-green">Edytuj</button>
+                        </form>
+                        <form asp-action="Delete" asp-controller="Author" asp-route-id="@a.AuthorId" method="get">
+                            <button type="submit" class="w3-btn w3-green">Usuń</button>
+                        </form>
                     </h2>
                 </li>
             }

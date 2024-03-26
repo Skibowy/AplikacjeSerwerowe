@@ -1,0 +1,12 @@
+﻿@model AS_lab1_gr1.Models.Author
+
+<h1>Usuwanie autora:</h1>
+
+<p>@Model.FirstName @Model.LastName</p>
+<form asp-action="Delete" method="post" class="w3-container">
+    <p>Czy usunąc autora?</p>
+    <input type="hidden" asp-for="AuthorId" />
+    <p>
+        <button type="submit" class="w3-btn w3-border">Usuń</button>
+    </p>
+</form>

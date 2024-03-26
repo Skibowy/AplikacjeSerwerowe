@@ -1,8 +1,9 @@
 ﻿@model AS_lab1_gr1.Models.Author
 
-<h1>Dodaj autora</h1>
+<h1>@ViewBag.Header</h1>
 
-<form asp-route="Add" method="post" class="w3-container">
+<form asp-route="AddOrUpdate" method="post" class="w3-container">
+	<input type="hidden" asp-for="AuthorId" />
 	<p>
 		<label asp-for="FirstName">Imię:</label>
 		<textarea asp-for="FirstName" class="w3-input w3-border"></textarea>
@@ -12,6 +13,6 @@
 		<textarea asp-for="LastName" class="w3-input w3-border"></textarea>
 	</p>
 	<p>
-		<button type="submit" class="w3-btn w3-border">Dodaj</button>
+		<button type="submit" class="w3-btn w3-border">@ViewBag.ButtonText</button>
 	</p>
 </form>
