@@ -1,0 +1,33 @@
+﻿@model IEnumerable<AS_lab1_gr1.Models.Tag>
+
+<h1>Tagi</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <form asp-action="AddOrUpdate" asp-controller="Tag" method="get">
+            <button type="submit" class="w3-btn w3-green">Dodaj tag</button>
+        </form>
+    </header>
+
+    <div class="w3-container">
+        <ul>
+            @foreach (var t in Model)
+            {
+                <li>
+                    <h2>
+                        <a asp-action="Details" asp-route-id="@t.TagId">@t.Name</a>
+                        <form asp-action="AddOrUpdate" asp-controller="Tag" asp-route-id="@t.TagId" method="get">
+                            <button type="submit" class="w3-btn w3-green">Edytuj</button>
+                        </form>
+                        <form asp-action="Delete" asp-controller="Tag" asp-route-id="@t.TagId" method="get">
+                            <button type="submit" class="w3-btn w3-green">Usuń</button>
+                        </form>
+                    </h2>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <footer class="w3-container w3-blue">
+    </footer>
+</div>

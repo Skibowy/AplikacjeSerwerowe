@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\article\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\article\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\tag\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\tag\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\article\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\article\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\tag\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\tag\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\article\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\article\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\tag\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\tag\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\author\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\author\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\author\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\author\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\category\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\category\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|c:\\users\\dawis\\source\\repos\\aplikacjeserwerowe\\as_lab1_gr1\\as_lab1_gr1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C71EFA3-8344-47EF-AC43-2CF8BABEE3AF}|AS_lab1_gr1\\AS_lab1_gr1.csproj|solutionrelative:as_lab1_gr1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,90 +86,259 @@
       "DocumentGroups": [
         {
           "DockedWidth": 343,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Details.cshtml",
-              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Article\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Details.cshtml",
-              "RelativeToolTip": "AS_lab1_gr1\\Views\\Article\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T23:49:46.18Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArticleController.cs",
-              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\ArticleController.cs",
-              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\ArticleController.cs",
-              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\ArticleController.cs*",
-              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\ArticleController.cs*",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAhwGMAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T22:00:06.463Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 350,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Index.cshtml",
-              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Article\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Index.cshtml",
-              "RelativeToolTip": "AS_lab1_gr1\\Views\\Article\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T23:48:23.306Z",
+              "WhenOpened": "2024-03-26T11:23:22.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\AuthorController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T00:35:08.633Z",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:23:08.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddOrUpdate.cshtml",
-              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\AddOrUpdate.cshtml",
-              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Article\\AddOrUpdate.cshtml",
-              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\AddOrUpdate.cshtml",
-              "RelativeToolTip": "AS_lab1_gr1\\Views\\Article\\AddOrUpdate.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T10:34:28.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T22:50:00.664Z",
+              "WhenOpened": "2024-03-26T11:07:19.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\ArticleController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T13:39:59.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:15:42.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Category\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:10:16.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddOrUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\AddOrUpdate.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Category\\AddOrUpdate.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Category\\AddOrUpdate.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Category\\AddOrUpdate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:13:17.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAcwFwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T10:34:47.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 343,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\Index.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Tag\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\Index.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Tag\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T13:39:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Author\\Details.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Author\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Author\\Details.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Author\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:10:03.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Author\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Author\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Author\\Delete.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Author\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:15:24.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Controllers\\TagController.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Controllers\\TagController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T13:36:37.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Delete.cshtml",
-              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Article\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Article\\Delete.cshtml",
-              "RelativeToolTip": "AS_lab1_gr1\\Views\\Article\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAABAAAA",
+              "Title": "AddOrUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\AddOrUpdate.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Tag\\AddOrUpdate.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\AddOrUpdate.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Tag\\AddOrUpdate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T00:23:45.304Z",
+              "WhenOpened": "2024-03-26T15:07:33.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Tag\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\Delete.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Tag\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T15:25:51.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\Details.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Tag\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Tag\\Details.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Tag\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T13:59:09.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddOrUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Author\\AddOrUpdate.cshtml",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Views\\Author\\AddOrUpdate.cshtml",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Views\\Author\\AddOrUpdate.cshtml",
+              "RelativeToolTip": "AS_lab1_gr1\\Views\\Author\\AddOrUpdate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:13:22.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Article.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Article.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:19:32.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "AS_lab1_gr1\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\AplikacjeSerwerowe\\AS_lab1_gr1\\AS_lab1_gr1\\Models\\Author.cs",
+              "RelativeToolTip": "AS_lab1_gr1\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:19:29.618Z",
               "EditorCaption": ""
             }
           ]

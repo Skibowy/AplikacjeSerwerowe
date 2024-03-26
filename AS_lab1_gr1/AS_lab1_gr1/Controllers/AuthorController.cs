@@ -31,6 +31,7 @@ namespace AS_lab1_gr1.Controllers
             if (author != null)
             {
                 return View(author);
+                // return PartialView(author);
             }
             return View("ErrorNoData");
         }
@@ -98,10 +99,9 @@ namespace AS_lab1_gr1.Controllers
 		{
 			try
 			{
-				var author = _db.Authors!.Where(a => a.AuthorId == id)
-					.Include(a => a.Articles)
-					.FirstOrDefault();
-				author!.Articles = null;
+                // usuwanie autora bez usuwania artykułów
+				var author = _db.Authors!
+					.FirstOrDefault(a => a.AuthorId == id);
 				_db.Authors!.Remove(author!);
 				_db.SaveChanges();
 			}

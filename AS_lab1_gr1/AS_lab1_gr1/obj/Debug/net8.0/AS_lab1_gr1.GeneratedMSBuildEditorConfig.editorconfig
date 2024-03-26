@@ -58,6 +58,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Category/AddOrUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkT3JVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +92,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Tag/AddOrUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXEFkZE9yVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Tag/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Tag/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/Tag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dawis/source/repos/AplikacjeSerwerowe/AS_lab1_gr1/AS_lab1_gr1/Views/_ViewImports.cshtml]

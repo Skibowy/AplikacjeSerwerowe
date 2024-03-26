@@ -1,0 +1,12 @@
+﻿@model AS_lab1_gr1.Models.Category
+
+<h1>Usuwanie kategorii:</h1>
+
+<p>@Model.Name</p>
+<form asp-action="Delete" method="post" class="w3-container">
+    <p>Czy usunąc kategorię?</p>
+    <input type="hidden" asp-for="CategoryId" />
+    <p>
+        <button type="submit" class="w3-btn w3-border">Usuń</button>
+    </p>
+</form>
